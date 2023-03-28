@@ -14,9 +14,12 @@ ENV JAVA_HOME /usr/lib/jvm/
 RUN export JAVA_HOME
 # ENV PATH $JAVA_HOME/bin:$PATH
 RUN mkdir -pv /root/.m2
-# COPY resources/configure-maven /usr/local/bin/configure-maven
-# RUN chmod a+x ./java --version
+RUN chmod a+x ./java --version
 ENTRYPOINT ["java --version", "javac --version"]
+
+
+
+
 
 
 
