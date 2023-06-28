@@ -1,1 +1,1 @@
-# ci-open-jdk17-maven-build
+# ci-open-jdk-build
